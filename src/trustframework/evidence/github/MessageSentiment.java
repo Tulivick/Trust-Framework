@@ -47,7 +47,7 @@ public class MessageSentiment implements EvidenceAnalyser {
         sentiStrength = new SentiStrength();
         String initializationString[] = {"sentidata", "E:\\SentStrength_Data_Sept2011\\", "sentenceCombineTot", "paragraphCombineTot", "trinary"};
         sentiStrength.initialise(initializationString);
-        alchemyAPI = AlchemyAPI.GetInstanceFromString("63fc826bafdd6c71851ccafe25a6a2b499d280c7");
+        alchemyAPI = AlchemyAPI.GetInstanceFromString("");
     }
 
     @Override
